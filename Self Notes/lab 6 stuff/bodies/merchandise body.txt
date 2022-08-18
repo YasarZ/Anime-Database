@@ -1,0 +1,20 @@
+<merchandise>
+    <merchandiseID>1</merchandiseID>
+    <merchandiseType>Figure</merchandiseType>
+    <merchandiseMat>Plastic</merchandiseMat>
+    <animeID>1</animeID>
+</merchandise>
+
+<merchandise>
+    <merchandiseID>2</merchandiseID>
+    <merchandiseType>Pillow</merchandiseType>
+    <merchandiseMat>Polyester</merchandiseMat>
+    <animeID>7</animeID>
+</merchandise>
+
+<merchandise>
+    <merchandiseID>3</merchandiseID>
+    <merchandiseType>Figure</merchandiseType>
+    <merchandiseMat>Plastic</merchandiseMat>
+    <animeID>5</animeID>
+</merchandise>

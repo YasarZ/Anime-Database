@@ -1,0 +1,79 @@
+<author>
+    <authorID>1</authorID>
+    <authorName>Masashi Kishimoto</authorName>
+    <authorDOB>8/11/1974</authorDOB>
+    <authorAge>47</authorAge>
+    <contractID>1</contractID>
+</author>
+
+<author>
+    <authorID>2</authorID>
+    <authorName>Matcha Hazuki</authorName>
+    <authorDOB>13/9/1990</authorDOB>
+    <authorAge>31</authorAge>
+    <contractID>2</contractID>
+</author>
+
+<author>
+    <authorID>3</authorID>
+    <authorName>Hiro Fujiwara</authorName>
+    <authorDOB>23/12/1981</authorDOB>
+    <authorAge>40</authorAge>
+    <contractID>3</contractID>
+</author>
+
+<author>
+    <authorID>4</authorID>
+    <authorName>Haruho Shiina</authorName>
+    <authorDOB>23/10/1975</authorDOB>
+    <authorAge>46</authorAge>
+    <contractID>4</contractID>
+</author>
+
+<author>
+    <authorID>5</authorID>
+    <authorName>Nobuhiro Watsuki</authorName>
+    <authorDOB>26/5/1970</authorDOB>
+    <authorAge>51</authorAge>
+    <contractID>5</contractID>
+</author>
+
+<author>
+    <authorID>6</authorID>
+    <authorName>Kanae Hazuki</authorName>
+    <authorDOB>9/9/1980</authorDOB>
+    <authorAge>41</authorAge>
+    <contractID>6</contractID>
+</author>
+
+<author>
+    <authorID>7</authorID>
+    <authorName>Yuyuko Takemiya</authorName>
+    <authorDOB>24/2/1978</authorDOB>
+    <authorAge>44</authorAge>
+    <contractID>7</contractID>
+</author>
+
+<author>
+    <authorID>8</authorID>
+    <authorName>Miki Yoshikawa</authorName>
+    <authorDOB>2/10/1982</authorDOB>
+    <authorAge>39</authorAge>
+    <contractID>8</contractID>
+</author>
+
+<author>
+    <authorID>9</authorID>
+    <authorName>Satoshi Wagahara</authorName>
+    <authorDOB>12/12/1982</authorDOB>
+    <authorAge>40</authorAge>
+    <contractID>9</contractID>
+</author>
+
+<author>
+    <authorID>10</authorID>
+    <authorName>Karino Takatsu</authorName>
+    <authorDOB>20/7/1982</authorDOB>
+    <authorAge>39</authorAge>
+    <contractID>10</contractID>
+</author>

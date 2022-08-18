@@ -1,0 +1,45 @@
+sqlite> PRAGMA foreign_keys = ON;
+
+- Each coloumn should be set as being NULL or NOT NULL
+- Primary key should be NOT NULL
+
+- Candidate keys are alternative primary keys
+
+
+Example:
+for a director entity ->
+	- corresponding table with column called dirName
+	- set dirName to NOT NULL [Since all directors have names]
+	- Primary key of type integer [ID --> variable name dirID]
+	- Since dirName is a unique attribute for each direction, dirName is a candidate key
+
+	- Table for director entity
+	- Columns called dirID and dirName
+	- dirID column is type INT and NOT NULL
+	- dirName is type VARCHAR(255) and NOT NULL
+	- dirID is the primary key [PRIMARY KEY constraint]
+	- dirName is candidate key [UNIQUE constraint]
+
+CREATE TABLE director )
+	dirID INTEGER PRIMARY KEY AUTOINCREMENT, //variable name dirID, type integer, increments by 1
+	dirName VARCHAR(255) NOT NULL, //variable name dirName, type VARCHAR(255)
+	CONSTRAINT ck_director UNIQUE (dirName) //Making dirName a candidate key
+);
+
+
+for a movie entity -->
+	- Multiple movies can be made by the same director
+	- Movie is on the many side of a one-to-many relationship
+	- We need a foreign key
+	- Foreign key represents the many-to-one relationship from movies to directors
+	- We can use dirID to look up the corresponding director
+
+CREATE TABLE movie (
+	mvID INTEGER PRIMARY KEY AUTOINCREMENT, //variable name mvID, type integer, increments by 1
+	dirID INT NOT NULL, //variable name dirID, type integer
+	/* More attributes if needed
+		...
+	*/
+	CONTRAINT fk_dir FOREIGN KEY (dirID) REFERENCES director (dirID)
+);
+

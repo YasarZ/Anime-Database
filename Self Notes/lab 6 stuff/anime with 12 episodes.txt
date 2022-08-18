@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+    <body>
+    <h2>Animes with 12 episodes</h2>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+            <th style="text-align:left">Anime ID</th>
+            <th style="text-align:left">Anime Name</th>
+        </tr>
+        <xsl:for-each select="animeList/anime">
+        <tr>
+            <xsl:variable name="animename" select="animeName" />
+             <xsl:variable name="animeData" select="//animeList/anime[animeName=$animename]"/>
+        <xsl:if test="$animeData/animeNOE='12'">
+            <td><xsl:value-of select="animeID"/></td>
+            <td><xsl:value-of select="animeName"/></td>
+        </xsl:if>
+        </tr>
+        </xsl:for-each>
+    </table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>

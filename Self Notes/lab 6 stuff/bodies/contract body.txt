@@ -1,0 +1,79 @@
+<contract>
+    <contractID>1</contractID>
+    <contractSalary>1000000</contractSalary>
+    <contractExpire>23/3/2017</contractExpire>
+    <studioID>1</studioID>
+    <vaID>1</vaID>
+</contract>
+
+<contract>
+    <contractID>2</contractID>
+    <contractSalary>200000</contractSalary>
+    <contractExpire>23/6/2014</contractExpire>
+    <studioID>2</studioID>
+    <vaID>2</vaID>
+</contract>
+
+<contract>
+    <contractID>3</contractID>
+    <contractSalary>100000</contractSalary>
+    <contractExpire>24/11/2010</contractExpire>
+    <studioID>3</studioID>
+    <vaID>3</vaID>
+</contract>
+
+<contract>
+    <contractID>4</contractID>
+    <contractSalary>150000</contractSalary>
+    <contractExpire>30/3/2011</contractExpire>
+    <studioID>4</studioID>
+    <vaID>4</vaID>
+</contract>
+
+<contract>
+    <contractID>5</contractID>
+    <contractSalary>250000</contractSalary>
+    <contractExpire>8/9/1998</contractExpire>
+    <studioID>5</studioID>
+    <vaID>5</vaID>
+</contract>
+
+<contract>
+    <contractID>6</contractID>
+    <contractSalary>100000</contractSalary>
+    <contractExpire>30/12/2012</contractExpire>
+    <studioID>6</studioID>
+    <vaID>6</vaID>
+</contract>
+
+<contract>
+    <contractID>7</contractID>
+    <contractSalary>250000</contractSalary>
+    <contractExpire>26/3/2009</contractExpire>
+    <studioID>3</studioID>
+    <vaID>7</vaID>
+</contract>
+
+<contract>
+    <contractID>8</contractID>
+    <contractSalary>150000</contractSalary>
+    <contractExpire>28/6/2015</contractExpire>
+    <studioID>7</studioID>
+    <vaID>8</vaID>
+</contract>
+
+<contract>
+    <contractID>9</contractID>
+    <contractSalary>200000</contractSalary>
+    <contractExpire>27/6/2013</contractExpire>
+    <studioID>8</studioID>
+    <vaID>9</vaID>
+</contract>
+
+<contract>
+    <contractID>10</contractID>
+    <contractSalary>150000</contractSalary>
+    <contractExpire>27/11/2015</contractExpire>
+    <studioID>9</studioID>
+    <vaID>10</vaID>
+</contract>

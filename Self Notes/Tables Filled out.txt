@@ -1,0 +1,56 @@
+INSERT INTO contract (contractID, contractSalary, contractExpire, studioId, vaID) Values (3, 100000, 2010-11-24, 3, 3);
+INSERT INTO contract (contractID, contractSalary, contractExpire, studioId, vaID) Values (4, 150000, 2011-3-30, 4, 4);
+INSERT INTO contract (contractID, contractSalary, contractExpire, studioId, vaID) Values (5, 250000, 1998-9-8, 5, 5);
+INSERT INTO contract (contractID, contractSalary, contractExpire, studioId, vaID) Values (6, 100000, 2012-12-30, 6, 6);
+INSERT INTO contract (contractID, contractSalary, contractExpire, studioId, vaID) Values (7, 250000, 2009-3-26, 3, 7);
+INSERT INTO contract (contractID, contractSalary, contractExpire, studioId, vaID) Values (8, 150000, 2015-6-28, 7, 8);
+INSERT INTO contract (contractID, contractSalary, contractExpire, studioId, vaID) Values (9, 200000, 2013-6-27, 8, 9);
+INSERT INTO contract (contractID, contractSalary, contractExpire, studioId, vaID) Values (10, 150000, 2015-11-27, 9, 10);
+
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (1, 'Masashi Kishimoto', 1975.118, 47, 1);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (2, 'Matcha Hazuki', 1990-9-13, 31, 2);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (3, 'Hiro Fujiwara', 1981-12-23, 40, 3);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (4, 'Haruho Shiina', 1975-10-23, 46, 4);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (5, 'Nobuhiro Watsuki', 1970-5-26, 51, 5);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (6, 'Kanae Hazuki', 1980-9-9, 41, 6);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (7, 'Yuyuko Takemiya', 1978-2-24, 44, 7);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (8, 'Miki Yoshikawa', 1982-10-2, 39, 8);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (9, 'Satoshi Wagahara', 1982-12-12, 40, 9);
+INSERT INTO author (authorID, authorName, authorDOB, authorAge, contractID) VALUES (10, 'Karino Takatsu', 1982-7-20, 39, 10);
+
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (1, 'Studio Pierrot', 1979-5-5, 43, 1);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (11, 'Brain's Base', 1996-6-6, 26, 5);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (3, 'J.C.Staff', 1986-1-18, 36, 3);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (4, 'Production I.G', 2007-11-11, 15, 4);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (5, 'Gallop', 1978-12-13, 44, 5);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (6, 'Zecxs', 1998-1-23, 25, 6);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (7, 'LIDENFILMS', 2012-2-22, 10, 7);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (8, 'White Fox', 2007-4-4, 15, 8);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (9, 'A-1 Pictures', 2005-5-9, 17, 9);
+INSERT INTO studio (studioID, studioName, studioDOB, studioAge, contractID) VALUES (10, 'Studio Deen', 1975-3-14, 47, 10);
+
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (1, 'Junko Takeuchi', 1972-4-5, 'Female', 49, 1);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (2, 'Yoshitaka Yamaya', 1992-2-15, 'Male', 31, 2);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (3, 'Nobuhiko Okamoto', 1986-10-24, 'Male', 36, 3);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (4, 'Mamiko Noto', 1980-2-6, 'Female', 43, 4);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (5, 'Mayo Suzukaze', 1960-9-11, 'Female', 62, 5);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (6, 'Ai Kayano', 1987-9-13, 'Female', 35, 6);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (7, 'Junji Majima', 1978-5-13, 'Male', 44, 7);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (8, 'Sori Hayami', 1991-5-29, 'Female', 32, 8);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (9, 'Ryouta Oosaka', 1986-8-2, 'Male', 36, 9);
+INSERT INTO voiceActor (vaID, vaName, vaDOB, vaSex, vaAge, contractID) VALUES (10, 'Jun Fukuyama', 1978-11-26, 'Male', 44, 10);
+
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (1, 'Naruto Shippuden', 'Action', 2007-2-15, 500, 8.23, 15, 1);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (2, 'One Week Friends', 'Slice of Life', 2014-4-7, 12, 7.54, 7, 2);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (3, 'Kaichou wa Maid-Sama', 'Romance', 2010-4-2, 26, 8.02, 11, 3);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (4, 'Kimi no Todoke', 'Romance', 2009-10-1, 37, 8, 10, 4);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (5, 'Rurouni Kenshin', 'Action', 1996-1-10, 94, 8.3, 16, 5);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (6, 'Say I love you', 'Romance', 2012-12-26, 10, 6.81, 9, 6);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (7, 'Toradora!', 'Romance', 2008-10-2, 11, 8.12, 13, 7);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (8, 'Yamada-kun and the Seven Witches', 'Slice of Life', 2015-4-12, 12, 7.58, 6, 8);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (9, 'The Devil is a Part-Timer!', 'Comedy', 2013-4-4, 13, 7.79, 8, 9);
+INSERT INTO anime (animeID, animeName, animeGenre, animeRD, animeNOE, animeRating, animeAge, contractID) VALUES (10, 'Wagnaria!!', 'Slice of Life', 2010-4-4, 39, 7.83, 11, 10);
+
+INSERT INTO merchandise (merchandiseID, merchandiseType, merchandiseMat, animeID) VALUES (1, 'Figure', 'Plastic', 1);
+INSERT INTO merchandise (merchandiseID, merchandiseType, merchandiseMat, animeID) VALUES (2, 'Pillow', 'Polyester', 7);
+INSERT INTO merchandise (merchandiseID, merchandiseType, merchandiseMat, animeID) VALUES (3, 'Figure', 'Plastic', 5);

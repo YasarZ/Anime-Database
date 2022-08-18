@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animeList>
+
+movies
+
+<anime>
+    <animeID>1</animeID>
+    <animeName>Naruto Shippuden</animeName>
+    <animeGenre>Action</animeGenre>
+    <animeRD>15/02/2007</animeRD>
+    <animeNOE>500</animeNOE>
+    <animeRating>8.23</animeRating>
+    <animeAge>15</animeAge>
+    <contractID>1</contractID>
+</anime>
+
+<anime>
+    <animeID>2</animeID>
+    <animeName>One Week Friends</animeName>
+    <animeGenre>Slice of Life</animeGenre>
+    <animeRD>7/4/2014</animeRD>
+    <animeNOE>12</animeNOE>
+    <animeRating>7.54</animeRating>
+    <animeAge>7</animeAge>
+    <contractID>2</contractID>
+</anime>
+
+<anime>
+    <animeID>3</animeID>
+    <animeName>Kaichou wa Maid-Sama</animeName>
+    <animeGenre>Romance</animeGenre>
+    <animeRD>2/4/2010</animeRD>
+    <animeNOE>26</animeNOE>
+    <animeRating>8.02</animeRating>
+    <animeAge>11</animeAge>
+    <contractID>3</contractID>
+</anime>
+
+<anime>
+    <animeID>4</animeID>
+    <animeName>Kimi no Todoke</animeName>
+    <animeGenre>Romance</animeGenre>
+    <animeRD>7/10/2009</animeRD>
+    <animeNOE>37</animeNOE>
+    <animeRating>8</animeRating>
+    <animeAge>10</animeAge>
+    <contractID>4</contractID>
+</anime>
+
+<anime>
+    <animeID>5</animeID>
+    <animeName>Rurouni Kenshin</animeName>
+    <animeGenre>Action</animeGenre>
+    <animeRD>10/1/1996</animeRD>
+    <animeNOE>94</animeNOE>
+    <animeRating>8.3</animeRating>
+    <animeAge>26</animeAge>
+    <contractID>5</contractID>
+</anime>
+
+<anime>
+    <animeID>6</animeID>
+    <animeName>Say "I Love You"</animeName>
+    <animeGenre>Romance</animeGenre>
+    <animeRD>26/12/2012</animeRD>
+    <animeNOE>10</animeNOE>
+    <animeRating>6.81</animeRating>
+    <animeAge>9</animeAge>
+    <contractID>6</contractID>
+</anime>
+
+<anime>
+    <animeID>7</animeID>
+    <animeName>Toradora!</animeName>
+    <animeGenre>Romance</animeGenre>
+    <animeRD>2/10/2008</animeRD>
+    <animeNOE>25</animeNOE>
+    <animeRating>8.12</animeRating>
+    <animeAge>13</animeAge>
+    <contractID>7</contractID>
+</anime>
+
+<anime>
+    <animeID>8</animeID>
+    <animeName>Yamada-kun and the Seven Witches</animeName>
+    <animeGenre>Slice of Life</animeGenre>
+    <animeRD>12/4/2015</animeRD>
+    <animeNOE>12</animeNOE>
+    <animeRating>7.58</animeRating>
+    <animeAge>6</animeAge>
+    <contractID>8</contractID>
+</anime>
+
+<anime>
+    <animeID>9</animeID>
+    <animeName>The Devil is a Part-Timer!</animeName>
+    <animeGenre>Comedy</animeGenre>
+    <animeRD>4/4/2013</animeRD>
+    <animeNOE>12</animeNOE>
+    <animeRating>7.79</animeRating>
+    <animeAge>8</animeAge>
+    <contractID>9</contractID>
+</anime>
+
+<anime>
+    <animeID>10</animeID>
+    <animeName>Wagnaria!!</animeName>
+    <animeGenre>Slice of Life</animeGenre>
+    <animeRD>4/4/2010</animeRD>
+    <animeNOE>39</animeNOE>
+    <animeRating>7.83</animeRating>
+    <animeAge>11</animeAge>
+    <contractID>10</contractID>
+</anime>
+
+<studio>
+    <studioID>1</studioID>
+    <studioName>Studio Pierrot</studioName>
+    <studioDOB>5/5/1979</studioDOB>
+    <contractID>1</contractID>
+</studio>
+
+<studio>
+    <studioID>2</studioID>
+    <studioName>Brain's Base</studioName>
+    <studioDOB>6/6/1996</studioDOB>
+    <contractID>2</contractID>
+</studio>
+
+<studio>
+    <studioID>3</studioID>
+    <studioName>J.C.Staff</studioName>
+    <studioDOB>18/1/1986</studioDOB>
+    <contractID>3</contractID>
+</studio>
+
+<studio>
+    <studioID>4</studioID>
+    <studioName>Production I.G</studioName>
+    <studioDOB>11/11/2007</studioDOB>
+    <contractID>4</contractID>
+</studio>
+
+<studio>
+    <studioID>5</studioID>
+    <studioName>Gallop</studioName>
+    <studioDOB>13/12/1978</studioDOB>
+    <contractID>5</contractID>
+</studio>
+
+<studio>
+    <studioID>6</studioID>
+    <studioName>Zecxs</studioName>
+    <studioDOB>23/1/1998</studioDOB>
+    <contractID>6</contractID>
+</studio>
+
+<studio>
+    <studioID>7</studioID>
+    <studioName>LIDENFILMS</studioName>
+    <studioDOB>22/2/2012</studioDOB>
+    <contractID>7</contractID>
+</studio>
+
+<studio>
+    <studioID>8</studioID>
+    <studioName>White Fox</studioName>
+    <studioDOB>4/4/2007</studioDOB>
+    <contractID>8</contractID>
+</studio>
+
+<studio>
+    <studioID>9</studioID>
+    <studioName>A-1 Pictures</studioName>
+    <studioDOB>9/5/2005</studioDOB>
+    <contractID>9</contractID>
+</studio>
+
+
+<studio>
+    <studioID>10</studioID>
+    <studioName>Studio Deen</studioName>
+    <studioDOB>14/3/1975</studioDOB>
+    <contractID>5</contractID>
+</studio>
+
+<author>
+    <authorID>1</authorID>
+    <authorName>Masashi Kishimoto</authorName>
+    <authorDOB>8/11/1974</authorDOB>
+    <authorAge>47</authorAge>
+    <contractID>1</contractID>
+</author>
+
+<author>
+    <authorID>2</authorID>
+    <authorName>Matcha Hazuki</authorName>
+    <authorDOB>13/9/1990</authorDOB>
+    <authorAge>31</authorAge>
+    <contractID>2</contractID>
+</author>
+
+<author>
+    <authorID>3</authorID>
+    <authorName>Hiro Fujiwara</authorName>
+    <authorDOB>23/12/1981</authorDOB>
+    <authorAge>40</authorAge>
+    <contractID>3</contractID>
+</author>
+
+<author>
+    <authorID>4</authorID>
+    <authorName>Haruho Shiina</authorName>
+    <authorDOB>23/10/1975</authorDOB>
+    <authorAge>46</authorAge>
+    <contractID>4</contractID>
+</author>
+
+<author>
+    <authorID>5</authorID>
+    <authorName>Nobuhiro Watsuki</authorName>
+    <authorDOB>26/5/1970</authorDOB>
+    <authorAge>51</authorAge>
+    <contractID>5</contractID>
+</author>
+
+<author>
+    <authorID>6</authorID>
+    <authorName>Kanae Hazuki</authorName>
+    <authorDOB>9/9/1980</authorDOB>
+    <authorAge>41</authorAge>
+    <contractID>6</contractID>
+</author>
+
+<author>
+    <authorID>7</authorID>
+    <authorName>Yuyuko Takemiya</authorName>
+    <authorDOB>24/2/1978</authorDOB>
+    <authorAge>44</authorAge>
+    <contractID>7</contractID>
+</author>
+
+<author>
+    <authorID>8</authorID>
+    <authorName>Miki Yoshikawa</authorName>
+    <authorDOB>2/10/1982</authorDOB>
+    <authorAge>39</authorAge>
+    <contractID>8</contractID>
+</author>
+
+<author>
+    <authorID>9</authorID>
+    <authorName>Satoshi Wagahara</authorName>
+    <authorDOB>12/12/1982</authorDOB>
+    <authorAge>40</authorAge>
+    <contractID>9</contractID>
+</author>
+
+<author>
+    <authorID>10</authorID>
+    <authorName>Karino Takatsu</authorName>
+    <authorDOB>20/7/1982</authorDOB>
+    <authorAge>39</authorAge>
+    <contractID>10</contractID>
+</author>
+
+<voiceActor>
+    <vaID>1</vaID>
+    <vaName>Junko Takeuchi</vaName>
+    <vaDOB>5/4/1972</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>49</vaAge>
+    <contractID>1</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>2</vaID>
+    <vaName>Yoshitaka Yamaya</vaName>
+    <vaDOB>15/2/1992</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>31</vaAge>
+    <contractID>2</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>3</vaID>
+    <vaName>Nobuhiko Okamoto</vaName>
+    <vaDOB>24/10/1986</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>36</vaAge>
+    <contractID>3</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>4</vaID>
+    <vaName>Mamiko Noto</vaName>
+    <vaDOB>6/2/1980</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>43</vaAge>
+    <contractID>4</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>5</vaID>
+    <vaName>Mayo Suzukaze</vaName>
+    <vaDOB>11/9/1960</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>62</vaAge>
+    <contractID>5</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>6</vaID>
+    <vaName>Ai Kayano</vaName>
+    <vaDOB>13/9/1987</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>35</vaAge>
+    <contractID>6</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>7</vaID>
+    <vaName>Junji Majima</vaName>
+    <vaDOB>13/5/1978</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>44</vaAge>
+    <contractID>7</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>8</vaID>
+    <vaName>Sori Hayami</vaName>
+    <vaDOB>29/5/1991</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>32</vaAge>
+    <contractID>8</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>9</vaID>
+    <vaName>Ryouta Oosaka</vaName>
+    <vaDOB>2/8/1986</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>36</vaAge>
+    <contractID>9</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>10</vaID>
+    <vaName>Jun Fukuyama</vaName>
+    <vaDOB>26/11/1978</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>44</vaAge>
+    <contractID>10</contractID>
+</voiceActor>
+
+<contract>
+    <contractID>1</contractID>
+    <contractSalary>1000000</contractSalary>
+    <contractExpire>23/3/2017</contractExpire>
+    <studioID>1</studioID>
+    <vaID>1</vaID>
+</contract>
+
+<contract>
+    <contractID>2</contractID>
+    <contractSalary>200000</contractSalary>
+    <contractExpire>23/6/2014</contractExpire>
+    <studioID>2</studioID>
+    <vaID>2</vaID>
+</contract>
+
+<contract>
+    <contractID>3</contractID>
+    <contractSalary>100000</contractSalary>
+    <contractExpire>24/11/2010</contractExpire>
+    <studioID>3</studioID>
+    <vaID>3</vaID>
+</contract>
+
+<contract>
+    <contractID>4</contractID>
+    <contractSalary>150000</contractSalary>
+    <contractExpire>30/3/2011</contractExpire>
+    <studioID>4</studioID>
+    <vaID>4</vaID>
+</contract>
+
+<contract>
+    <contractID>5</contractID>
+    <contractSalary>250000</contractSalary>
+    <contractExpire>8/9/1998</contractExpire>
+    <studioID>5</studioID>
+    <vaID>5</vaID>
+</contract>
+
+<contract>
+    <contractID>6</contractID>
+    <contractSalary>100000</contractSalary>
+    <contractExpire>30/12/2012</contractExpire>
+    <studioID>6</studioID>
+    <vaID>6</vaID>
+</contract>
+
+<contract>
+    <contractID>7</contractID>
+    <contractSalary>250000</contractSalary>
+    <contractExpire>26/3/2009</contractExpire>
+    <studioID>3</studioID>
+    <vaID>7</vaID>
+</contract>
+
+<contract>
+    <contractID>8</contractID>
+    <contractSalary>150000</contractSalary>
+    <contractExpire>28/6/2015</contractExpire>
+    <studioID>7</studioID>
+    <vaID>8</vaID>
+</contract>
+
+<contract>
+    <contractID>9</contractID>
+    <contractSalary>200000</contractSalary>
+    <contractExpire>27/6/2013</contractExpire>
+    <studioID>8</studioID>
+    <vaID>9</vaID>
+</contract>
+
+<contract>
+    <contractID>10</contractID>
+    <contractSalary>150000</contractSalary>
+    <contractExpire>27/11/2015</contractExpire>
+    <studioID>9</studioID>
+    <vaID>10</vaID>
+</contract>
+
+
+<merchandise>
+    <merchandiseID>1</merchandiseID>
+    <merchandiseType>Figure</merchandiseType>
+    <merchandiseMat>Plastic</merchandiseMat>
+    <animeID>1</animeID>
+</merchandise>
+
+<merchandise>
+    <merchandiseID>2</merchandiseID>
+    <merchandiseType>Pillow</merchandiseType>
+    <merchandiseMat>Polyester</merchandiseMat>
+    <animeID>7</animeID>
+</merchandise>
+
+<merchandise>
+    <merchandiseID>3</merchandiseID>
+    <merchandiseType>Figure</merchandiseType>
+    <merchandiseMat>Plastic</merchandiseMat>
+    <animeID>5</animeID>
+</merchandise>
+
+
+</animeList>

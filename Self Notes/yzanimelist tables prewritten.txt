@@ -1,0 +1,69 @@
+CREATE TABLE contract (
+	contractID INTEGER PRIMARY KEY AUTOINCREMENT,
+	contractSalary INTEGER NOT NULL,
+	contractExpire DATE,
+	studioID INT NOT NULL,
+	vaID INT NOT NULL,
+	CONSTRAINT fk_studioID FOREIGN KEY (studioID) REFERENCES studio (studioID),
+	CONSTRAINT fk_vaID FOREIGN KEY (vaID) REFERENCES voiceActor (vaID)
+);
+
+
+CREATE TABLE author (
+	authorID INTEGER PRIMARY KEY AUTOINCREMENT,
+	authorName VARCHAR(255) NOT NULL,
+	authorDOB DATE,
+	authorAge INT NOT NULL,
+	contractID INT NOT NULL,
+	CONSTRAINT fk_contractID FOREIGN KEY (contractID) REFERENCES contract (contractID),
+	CONSTRAINT ck_author UNIQUE (authorName)
+);
+
+CREATE TABLE studio (
+	studioID INTEGER PRIMARY KEY AUTOINCREMENT,
+	studioName VARCHAR(255) NOT NULL,
+	studioDOB DATE,
+	studioAge INT NOT NULL,
+	contractID INT NOT NULL,
+	CONSTRAINT fk_contractID FOREIGN KEY (contractID) REFERENCES contract (contractID),
+	CONSTRAINT ck_studio UNIQUE (studioName)
+);
+
+CREATE TABLE voiceActor (
+	vaID INTEGER PRIMARY KEY AUTOINCREMENT,
+	vaName VARCHAR(255) NOT NULL,
+	vaDOB DATE,
+	vaSex VARCHAR(255) NOT NULL,
+	vaAge INT NOT NULL,
+	contractID INT NOT NULL,
+	CONSTRAINT fk_contractID FOREIGN KEY (contractID) REFERENCES contract (contractID),
+	CONSTRAINT ck_voiceActor UNIQUE (vaName)
+);
+
+CREATE TABLE anime (
+	animeID INTEGER PRIMARY KEY AUTOINCREMENT,
+	animeName VARCHAR(255) NOT NULL,
+	animeGenre VARCHAR(255) NOT NULL,
+	animeRD DATE,
+	animeNOE INT NOT NULL,
+	animeRating REAL NOT NULL,
+	animeAge INT NOT NULL,
+	contractID INT NOT NULL,
+	CONSTRAINT fk_contractID FOREIGN KEY (contractID) REFERENCES contract (contractID),
+	CONSTRAINT ck_animeName UNIQUE (animeName)
+);
+
+CREATE TABLE merchandise (
+	merchandiseID INTEGER PRIMARY KEY AUTOINCREMENT,
+	merchandiseType VARCHAR(255) NULL,
+	merchandiseMat VARCHAR(255) NULL,
+	animeID INT NOT NULL,
+	CONSTRAINT fk_animeID FOREIGN KEY (animeID) REFERENCES anime (animeID),
+	CONSTRAINT ck_merchandiseType UNIQUE (merchandiseType)
+);
+
+
+derived attributes -->
+example:
+	age INT AS (TIMESTAMPDIFF(YEAR, dob, CURDATE())));
+

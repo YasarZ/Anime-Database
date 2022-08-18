@@ -1,0 +1,70 @@
+<studio>
+    <studioID>1</studioID>
+    <studioName>Studio Pierrot</studioName>
+    <studioDOB>5/5/1979</studioDOB>
+    <contractID>1</contractID>
+</studio>
+
+<studio>
+    <studioID>2</studioID>
+    <studioName>Brain's Base</studioName>
+    <studioDOB>6/6/1996</studioDOB>
+    <contractID>2</contractID>
+</studio>
+
+<studio>
+    <studioID>3</studioID>
+    <studioName>J.C.Staff</studioName>
+    <studioDOB>18/1/1986</studioDOB>
+    <contractID>3</contractID>
+</studio>
+
+<studio>
+    <studioID>4</studioID>
+    <studioName>Production I.G</studioName>
+    <studioDOB>11/11/2007</studioDOB>
+    <contractID>4</contractID>
+</studio>
+
+<studio>
+    <studioID>5</studioID>
+    <studioName>Gallop</studioName>
+    <studioDOB>13/12/1978</studioDOB>
+    <contractID>5</contractID>
+</studio>
+
+<studio>
+    <studioID>6</studioID>
+    <studioName>Zecxs</studioName>
+    <studioDOB>23/1/1998</studioDOB>
+    <contractID>6</contractID>
+</studio>
+
+<studio>
+    <studioID>7</studioID>
+    <studioName>LIDENFILMS</studioName>
+    <studioDOB>22/2/2012</studioDOB>
+    <contractID>7</contractID>
+</studio>
+
+<studio>
+    <studioID>8</studioID>
+    <studioName>White Fox</studioName>
+    <studioDOB>4/4/2007</studioDOB>
+    <contractID>8</contractID>
+</studio>
+
+<studio>
+    <studioID>9</studioID>
+    <studioName>A-1 Pictures</studioName>
+    <studioDOB>9/5/2005</studioDOB>
+    <contractID>9</contractID>
+</studio>
+
+
+<studio>
+    <studioID>10</studioID>
+    <studioName>Studio Deen</studioName>
+    <studioDOB>14/3/1975</studioDOB>
+    <contractID>5</contractID>
+</studio>

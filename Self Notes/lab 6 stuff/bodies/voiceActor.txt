@@ -1,0 +1,89 @@
+<voiceActor>
+    <vaID>1</vaID>
+    <vaName>Junko Takeuchi</vaName>
+    <vaDOB>5/4/1972</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>49</vaAge>
+    <contractID>1</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>2</vaID>
+    <vaName>Yoshitaka Yamaya</vaName>
+    <vaDOB>15/2/1992</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>31</vaAge>
+    <contractID>2</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>3</vaID>
+    <vaName>Nobuhiko Okamoto</vaName>
+    <vaDOB>24/10/1986</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>36</vaAge>
+    <contractID>3</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>4</vaID>
+    <vaName>Mamiko Noto</vaName>
+    <vaDOB>6/2/1980</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>43</vaAge>
+    <contractID>4</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>5</vaID>
+    <vaName>Mayo Suzukaze</vaName>
+    <vaDOB>11/9/1960</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>62</vaAge>
+    <contractID>5</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>6</vaID>
+    <vaName>Ai Kayano</vaName>
+    <vaDOB>13/9/1987</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>35</vaAge>
+    <contractID>6</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>7</vaID>
+    <vaName>Junji Majima</vaName>
+    <vaDOB>13/5/1978</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>44</vaAge>
+    <contractID>7</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>8</vaID>
+    <vaName>Sori Hayami</vaName>
+    <vaDOB>29/5/1991</vaDOB>
+    <vaSex>Female</vaSex>
+    <vaAge>32</vaAge>
+    <contractID>8</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>9</vaID>
+    <vaName>Ryouta Oosaka</vaName>
+    <vaDOB>2/8/1986</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>36</vaAge>
+    <contractID>9</contractID>
+</voiceActor>
+
+<voiceActor>
+    <vaID>10</vaID>
+    <vaName>Jun Fukuyama</vaName>
+    <vaDOB>26/11/1978</vaDOB>
+    <vaSex>Male</vaSex>
+    <vaAge>44</vaAge>
+    <contractID>10</contractID>
+</voiceActor>

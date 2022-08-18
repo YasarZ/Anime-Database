@@ -1,0 +1,111 @@
+movies
+
+<anime>
+    <animeID>1</animeID>
+    <animeName>Naruto Shippuden</animeName>
+    <animeGenre>Action</animeGenre>
+    <animeRD>15/02/2007</animeRD>
+    <animeNOE>500</animeNOE>
+    <animeRating>8.23</animeRating>
+    <animeAge>15</animeAge>
+    <contractID>1</contractID>
+</anime>
+
+<anime>
+    <animeID>2</animeID>
+    <animeName>One Week Friends</animeName>
+    <animeGenre>Slice of Life</animeGenre>
+    <animeRD>7/4/2014</animeRD>
+    <animeNOE>12</animeNOE>
+    <animeRating>7.54</animeRating>
+    <animeAge>7</animeAge>
+    <contractID>2</contractID>
+</anime>
+
+<anime>
+    <animeID>3</animeID>
+    <animeName>Kaichou wa Maid-Sama</animeName>
+    <animeGenre>Romance</animeGenre>
+    <animeRD>2/4/2010</animeRD>
+    <animeNOE>26</animeNOE>
+    <animeRating>8.02</animeRating>
+    <animeAge>11</animeAge>
+    <contractID>3</contractID>
+</anime>
+
+<anime>
+    <animeID>4</animeID>
+    <animeName>Kimi no Todoke</animeName>
+    <animeGenre>Romance</animeGenre>
+    <animeRD>7/10/2009</animeRD>
+    <animeNOE>37</animeNOE>
+    <animeRating>8</animeRating>
+    <animeAge>10</animeAge>
+    <contractID>4</contractID>
+</anime>
+
+<anime>
+    <animeID>5</animeID>
+    <animeName>Rurouni Kenshin</animeName>
+    <animeGenre>Action</animeGenre>
+    <animeRD>10/1/1996</animeRD>
+    <animeNOE>94</animeNOE>
+    <animeRating>8.3</animeRating>
+    <animeAge>26</animeAge>
+    <contractID>5</contractID>
+</anime>
+
+<anime>
+    <animeID>6</animeID>
+    <animeName>Say "I Love You"</animeName>
+    <animeGenre>Romance</animeGenre>
+    <animeRD>26/12/2012</animeRD>
+    <animeNOE>10</animeNOE>
+    <animeRating>6.81</animeRating>
+    <animeAge>9</animeAge>
+    <contractID>6</contractID>
+</anime>
+
+<anime>
+    <animeID>7</animeID>
+    <animeName>Toradora!</animeName>
+    <animeGenre>Romance</animeGenre>
+    <animeRD>2/10/2008</animeRD>
+    <animeNOE>25</animeNOE>
+    <animeRating>8.12</animeRating>
+    <animeAge>13</animeAge>
+    <contractID>7</contractID>
+</anime>
+
+<anime>
+    <animeID>8</animeID>
+    <animeName>Yamada-kun and the Seven Witches</animeName>
+    <animeGenre>Slice of Life</animeGenre>
+    <animeRD>12/4/2015</animeRD>
+    <animeNOE>12</animeNOE>
+    <animeRating>7.58</animeRating>
+    <animeAge>6</animeAge>
+    <contractID>8</contractID>
+</anime>
+
+<anime>
+    <animeID>9</animeID>
+    <animeName>The Devil is a Part-Timer!</animeName>
+    <animeGenre>Comedy</animeGenre>
+    <animeRD>4/4/2013</animeRD>
+    <animeNOE>12</animeNOE>
+    <animeRating>7.79</animeRating>
+    <animeAge>8</animeAge>
+    <contractID>9</contractID>
+</anime>
+
+<anime>
+    <animeID>10</animeID>
+    <animeName>Wagnaria!!</animeName>
+    <animeGenre>Slice of Life</animeGenre>
+    <animeRD>4/4/2010</animeRD>
+    <animeNOE>39</animeNOE>
+    <animeRating>7.83</animeRating>
+    <animeAge>11</animeAge>
+    <contractID>10</contractID>
+</anime>

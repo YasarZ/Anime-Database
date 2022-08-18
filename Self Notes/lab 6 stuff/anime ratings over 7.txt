@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+    <body>
+    <h2>Anime with at least a 7.00 rating</h2>
+        <table border="1">
+        <tr bgcolor="#9acd32">
+        <th style="text-align:left">Anime Name</th>
+        <th style="text-align:left">Release Date</th>
+        <th style="text-align:left">Rating</th>
+    </tr>
+    <xsl:for-each select="animeList/anime">
+    <tr>
+    <xsl:variable name="animename" select="animeName"/>
+    <xsl:variable name="animeInfo" select="//animeList/anime[animeRating >7.00 and animeName=$animename] " />
+    <xsl:if test="$animeInfo/animeRating">
+        <td><xsl:value-of select="animeName"/></td>
+        <td><xsl:value-of select="animeRD"/></td>
+        <td><xsl:value-of select="animeRating"/></td>
+    </xsl:if>
+    </tr>
+    </xsl:for-each>
+</table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>

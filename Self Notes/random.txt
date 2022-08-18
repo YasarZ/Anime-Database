@@ -1,0 +1,71 @@
+function [gx1Acc,gx2Acc] = lab2(X1,X2,trainPer, lrate)
+%Classifying Data
+X1train = X1(1:(trainPer*length(X1)),1:2);
+X2train = X2(1:(trainPer*length(X2)),1:2);
+X1test = X1((trainPer*length(X1):length(X1)),1:2);
+X2test = X2((trainPer*length(X2):length(X2)),1:2);
+
+%Training Data
+AugX1train = [ones(size(X1train,1),1),X1train];
+AugX1train = AugX1train';
+AugX2train = [ones(size(X2train,1),1),X2train];
+NormX2train = -AugX2train
+AugX2train = AugX2train';
+NormX2train = NormX2train';
+
+%Variables
+a= [0 0 1];
+threshold = 0;
+Yi = [AugX1train, NormX2train];
+Y = [AugX1train, AugX2train]
+
+
+%Plots
+figure;
+scatter(X1train(:,1),X1train(:,2),'r')
+hold on;
+scatter(X2train(:,1),X2train(:,2),'k')
+hold on;
+
+%Variables + Plot
+syms x2 x3;
+eqn = a*[1;x2;x3] == 0;
+xValue = solve(eqn, x3);
+ezplot(xValue);
+
+%iterations
+for t=1:300
+    M = a*Yi;
+    Mlogic = M <= 0;
+    a = a' - (sum(Yi(:,Mlogic),2)*-lrate);
+    a = a';
+    eqn = a*[1;x2;x3] == 0;
+    xValue = solve(eqn, x3);
+    ezplot(xValue);
+    hold on;
+    if (all(Mlogic(:) == threshold))
+        break;
+    end   
+    
+end    
+
+title('x2 vs x3 (Training Data of 30%)'); xlim([-6 6]); ylim([-6 6]); xlabel('x2'); ylabel('x3');
+eqn = a*[1;x2;x3] == 0;
+xValue = solve(eqn, x3) == x3;
+
+figure;
+scatter(X1train(:,1),X1train(:,2),'r') 
+hold on;
+scatter(X2train(:,1),X2train(:,2),'k')
+ezplot(xValue);
+title('x2 vs x3 (Training Data of 30%)'); legend('Class A','Class B'); xlim([0 5]); ylim([0 6]); xlabel('x2'); ylabel('x3');
+
+%% question 2
+%Accuracy
+Y1 = [ones(size(X1test,1),1), X1test]'
+gx1 = a*Y1
+gx1Acc = 1 -((length(gx1)-sum(gx1(:) > 0))/length(gx1));
+
+Y2 = [ones(size(X2test,1),1), X2test]'
+gx2 = a*Y2
+gx2Acc = 1 -((length(gx2)-sum(gx2(:) < 0))/length(gx2));
